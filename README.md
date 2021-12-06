@@ -4,32 +4,32 @@ Pytorch implementation for manuscript "Towards Real-world Shadow Removal with a 
 
 **Results of model trained with simulated shadow images**
 
-**ISTD results: **
+ISTD results: 
 
 /home/notebook/data/group/gaojianhao/CVPR2022/shadow_removal_simudata/ISTDresults/images
 
-**Some SBU results:**
+Some SBU results:
 
 /home/notebook/data/group/gaojianhao/CVPR2022/shadow_removal_simudata/SBUresults
 
 **Results of model trained with real shadow images**
 
-**ISTD results: **
+ISTD results: 
 
 /home/notebook/data/group/gaojianhao/CVPR2022/supervised_training/ISTDresults/model2/test_latest
 
-**Some SBU results:**
+Some SBU results:
 
 /home/notebook/data/group/gaojianhao/CVPR2022/supervised_training/SBUresults
 
 
 **Training with simulated shadow images** 
 
-**Project path:**
+*Project path:*
 
 /home/notebook/data/group/gaojianhao/CVPR2022/shadow_removal_simudata
 
-**Path of pretrained network:**
+*Path of pretrained network:*
 
 /home/notebook/data/group/gaojianhao/CVPR2022/shadow_removal_simudata/checkpoints/shadow_removal/iter_480000_net_G1.pth
 
@@ -41,7 +41,7 @@ Pytorch implementation for manuscript "Towards Real-world Shadow Removal with a 
 
 **Training with real shadow images**
 
-**path:/home/notebook/data/group/gaojianhao/CVPR2022/supervised_training**
+*path:/home/notebook/data/group/gaojianhao/CVPR2022/supervised_training*
 
 1. Make the files which contain the paths of shadow images and masks and name them as img.flist and mask.flist.
 
