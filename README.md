@@ -14,11 +14,11 @@ Some SBU results:
 
 **Results of model trained with real shadow images**
 
-ISTD results: 
+*ISTD results:*
 
 /home/notebook/data/group/gaojianhao/CVPR2022/supervised_training/ISTDresults/model2/test_latest
 
-Some SBU results:
+*Some SBU results:*
 
 /home/notebook/data/group/gaojianhao/CVPR2022/supervised_training/SBUresults
 
@@ -33,6 +33,8 @@ Some SBU results:
 
 /home/notebook/data/group/gaojianhao/CVPR2022/shadow_removal_simudata/checkpoints/shadow_removal/iter_480000_net_G1.pth
 
+Process:
+
 1. Make the files which contain the paths of images and masks and name them as img.flist and mask.flist.
 
 2. run the command
@@ -41,7 +43,10 @@ Some SBU results:
 
 **Training with real shadow images**
 
-*path:/home/notebook/data/group/gaojianhao/CVPR2022/supervised_training*
+*path:*
+/home/notebook/data/group/gaojianhao/CVPR2022/supervised_training
+
+Process:
 
 1. Make the files which contain the paths of shadow images and masks and name them as img.flist and mask.flist.
 
