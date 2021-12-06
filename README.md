@@ -6,32 +6,32 @@ Pytorch implementation for manuscript "Towards Real-world Shadow Removal with a 
 
 ISTD results: 
 
-/home/notebook/data/group/gaojianhao/CVPR2022/shadow_removal_simudata/ISTDresults/images
+```/home/notebook/data/group/gaojianhao/CVPR2022/shadow_removal_simudata/ISTDresults/images```
 
 Some SBU results:
 
-/home/notebook/data/group/gaojianhao/CVPR2022/shadow_removal_simudata/SBUresults
+```/home/notebook/data/group/gaojianhao/CVPR2022/shadow_removal_simudata/SBUresults```
 
 **Results of model trained with real shadow images**
 
 *ISTD results:*
 
-/home/notebook/data/group/gaojianhao/CVPR2022/supervised_training/ISTDresults/model2/test_latest
+```/home/notebook/data/group/gaojianhao/CVPR2022/supervised_training/ISTDresults/model2/test_latest```
 
 *Some SBU results:*
 
-/home/notebook/data/group/gaojianhao/CVPR2022/supervised_training/SBUresults
+```/home/notebook/data/group/gaojianhao/CVPR2022/supervised_training/SBUresults```
 
 
 **Training with simulated shadow images** 
 
 *Project path:*
 
-/home/notebook/data/group/gaojianhao/CVPR2022/shadow_removal_simudata
+```/home/notebook/data/group/gaojianhao/CVPR2022/shadow_removal_simudata```
 
 *Path of pretrained network:*
 
-/home/notebook/data/group/gaojianhao/CVPR2022/shadow_removal_simudata/checkpoints/shadow_removal/iter_480000_net_G1.pth
+```/home/notebook/data/group/gaojianhao/CVPR2022/shadow_removal_simudata/checkpoints/shadow_removal/iter_480000_net_G1.pth```
 
 Process:
 
@@ -44,7 +44,7 @@ Process:
 **Training with real shadow images**
 
 *path:*
-/home/notebook/data/group/gaojianhao/CVPR2022/supervised_training
+```/home/notebook/data/group/gaojianhao/CVPR2022/supervised_training```
 
 Process:
 
@@ -58,7 +58,7 @@ Process:
 
 1. Download the models and save them into ./checkpoints/shadow_removal/. Or train the model yourself.
 
-2. Make the files which contain the paths of shadow images and masks and name them as img.flist and mask.flist. Flist can be made by the file in /home/notebook/data/group/gaojianhao/CVPR2022/mask_list.py.
+2. Make the files which contain the paths of shadow images and masks and name them as img.flist and mask.flist. Flist can be made by the file in ```/home/notebook/data/group/gaojianhao/CVPR2022/mask_list.py.```
 
 3. run the command:
 
