@@ -12,7 +12,8 @@ Pytorch implementation for manuscript "Towards Real-world Shadow Removal with a 
 
 ```python test.py --name shadow_removal --img_flist img.flist --mask_flist mask.flist```
 
-**Training with simulated shadow images** (/home/notebook/data/group/gaojianhao/CVPR2022/shadow_removal_simudata)
+**Training with simulated shadow images** 
+path:/home/notebook/data/group/gaojianhao/CVPR2022/shadow_removal_simudata
 
 1. Make the files which contain the paths of images and masks and name them as img.flist and mask.flist.
 
@@ -20,7 +21,9 @@ Pytorch implementation for manuscript "Towards Real-world Shadow Removal with a 
 
 ```python train.py --name shadow_removal --img_flist img.flist --mask_flist mask.flist```
 
-**Training with real shadow images**(/home/notebook/data/group/gaojianhao/CVPR2022/supervised_training)
+**Training with real shadow images**
+
+path:/home/notebook/data/group/gaojianhao/CVPR2022/supervised_training
 
 1. Make the files which contain the paths of shadow images and masks and name them as img.flist and mask.flist.
 
