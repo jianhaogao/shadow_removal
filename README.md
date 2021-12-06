@@ -66,7 +66,7 @@ Process:
 
 **Evaluation**
 
-The shadow removal results are evaluated with MAE(Mean Absolute Error). The matlab code is available in /home/notebook/data/group/gaojianhao/CVPR2022/matlab_eval/ISTDtest.m
+The shadow removal results are evaluated with MAE(Mean Absolute Error). The matlab code is available in ```/home/notebook/data/group/gaojianhao/CVPR2022/matlab_eval/ISTDtest.m```
 
 
 
